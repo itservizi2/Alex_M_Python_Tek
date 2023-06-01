@@ -2,7 +2,6 @@ name = "Alex"
 hello_string = "Salut " + name
 print(hello_string)
 
-
 # Declararea și atribuirea valorilor variabilelor
 name = "John"  # Atribuirea unei valori de tip șir de caractere
 age = 25  # Atribuirea unei valori de tip întreg
@@ -25,13 +24,13 @@ height = 1.75  # Număr real
 is_student = True  # Valoare booleană
 
 print(name)
-print(type(name)) # Ar trebui să fie str
+print(type(name))  # Ar trebui să fie str
 print(age)
-print(type(age)) # Ar trebui să fie int
+print(type(age))  # Ar trebui să fie int
 print(height)
-print(type(height)) # Ar trebui să fie float
+print(type(height))  # Ar trebui să fie float
 print(is_student)
-print(type(is_student)) # Ar trebui să fie bool
+print(type(is_student))  # Ar trebui să fie bool
 name = "John"  # Șir de caractere
 age = 25  # Număr întreg
 height = 1.75  # Număr real
@@ -91,6 +90,6 @@ print(message)
 name = input("Introduceți numele dumneavoastră: ")
 print("Salut, " + name + "! Bine ați venit în program.")
 
-x=5
-y=10
-print(x+y)
+x = 5
+y = 10
+print(x + y)
